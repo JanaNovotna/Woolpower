@@ -1,9 +1,16 @@
 <template>
-  <div class="container">
-    <router-link to="/page1">Go to Page 1</router-link>
-    <router-link to="/page2">Go to Page 2</router-link>
-
-    <h1>Vue router</h1>
+  <div>
+    <div id="navigace">
+      <router-link to="/"></router-link>
+      <router-link to="/rada_Lite">Řada Lite</router-link>
+      <router-link to="/rada_Ullfrotte">Řada Ullfrotté</router-link>
+      <router-link to="/detske_obleceni">Dětské oblečení</router-link>
+      <router-link to="/doplnky">Doplňky</router-link>
+      <router-link to="/pracovni_obleceni">Pracovní oblečení</router-link>
+      <router-link to="/Woolpoered">Woolpoered</router-link>
+      <router-link to="/o_Woolpoweru">O Woolpoweru</router-link>
+      <router-link to="/kontakt">Kontakt</router-link>
+    </div>
     <router-view />
   </div>
 </template>

@@ -1,5 +1,6 @@
 import Vue from 'vue';
-import VueRouter from 'vue-router'
+import VueRouter from 'vue-router';
+import VueAgile from 'vue-agile';
 
 
 import Woolpower from './components/Woolpower.vue';
@@ -8,13 +9,14 @@ import RadaUllfrotte from './components/RadaUllfrotte.vue';
 import Detske from './components/Detske.vue';
 import Doplnky from './components/Doplnky.vue';
 import PracovniObleceni from './components/PracovniObleceni.vue';
-import Woolpowered from './components/woolpowered.vue';
+import Woolpowered from './components/Woolpowered.vue';
 import Info from './components/Info.vue';
 import Kontakt from './components/Kontakt.vue';
 import App from './App.vue';
 import './index.html';
 
 Vue.use(VueRouter);
+Vue.use(VueAgile)
 
 const router = new VueRouter({
   mode: 'history',

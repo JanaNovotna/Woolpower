@@ -11,9 +11,6 @@ module.exports = {
     path: path.join(__dirname, 'dist'),
     filename: 'bundle.js',
   },
-  resolve: {
-    extensions: ['.js', '.vue'],
-  },
   module: {
     rules: [
       {
@@ -53,12 +50,11 @@ module.exports = {
   plugins: [
     new VueLoaderPlugin(),
     new CopyPlugin({
-      patterns: [{ 
-        from: 'src/assets', 
+      patterns: [{
+        from: 'src/assets',
         to: 'assets',
-        noErrorOnMissing: true, 
+        noErrorOnMissing: true,
       }],
     }),
   ],
-  devServer: { historyApiFallback: true },
 };

@@ -4,13 +4,13 @@
     <router-link to="/page2">Go to Page 2</router-link>
 
     <h1>Vue router</h1>
-    <router-view></router-view>
+    <router-view />
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App',
+  name: "App",
 };
 </script>
 

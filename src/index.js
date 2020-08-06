@@ -1,8 +1,11 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router'
-import Page1 from './components/Page1';
-import Page2 from './components/Page2';
-import App from './components/App';
+
+
+import ZakladniVrstva from './components/ZakladniVrstva.vue';
+import StredniVrstva from './components/StredniVrstva.vue';
+import Woolpower from './components/Woolpower.vue';
+import App from './App.vue';
 import './index.html';
 
 Vue.use(VueRouter);
@@ -10,8 +13,9 @@ Vue.use(VueRouter);
 const router = new VueRouter({
   mode: 'history',
   routes: [
-    { path: '/page1', component: Page1 },
-    { path: '/page2', component: Page2 },
+    { path: '/', name: "woolpower", component: Woolpower },
+    { path: '/zakladni_vrstva', name: "ZakladniVrstva", component: ZakladniVrstva },
+    { path: '/stredni_vrstva', name: "StredniVrstva", component: StredniVrstva },
   ],
 });
 

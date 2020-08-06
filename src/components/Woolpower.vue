@@ -2,16 +2,16 @@
   <div>
     <H1>Zkouška</H1>
     <agile>
-      <div class="slide">
-        <img src="../assets/Riverside2.jpg" alt="" />
+      <div>
+        <img src="src/assets/Riverside2.jpg" alt="" class="slide" />
         <h3>slide 1</h3>
       </div>
-      <div class="slide">
-        <img src="../assets/Biking.jpg" alt="" />
+      <div>
+        <img src="src/assets/Biking.jpg" alt="" class="slide" />
         <h3>slide 1</h3>
       </div>
-      <div class="slide">
-        <img src="../assets/Hiking1.jpg" alt="" />
+      <div>
+        <img src="src/assets/Hiking1.jpg" alt="" class="slide" />
         <h3>slide n</h3>
       </div>
     </agile>
@@ -27,4 +27,29 @@ export default {
   },
 };
 </script>
-<style></style>
+<style scoped>
+agile nav-button {
+  background: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 24px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  transition-duration: 0.3s;
+  width: 80px;
+}
+
+agile nav-button:hover {
+  background-color: rgba(#000, 0.5);
+  opacity: 1;
+}
+
+.slide {
+  display: block;
+  height: 500px;
+  object-fit: cover;
+  width: 100%;
+}
+</style>

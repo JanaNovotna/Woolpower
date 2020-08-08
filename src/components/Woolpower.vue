@@ -1,21 +1,8 @@
 <template>
   <div>
-    <agile>
-      <div>
-        <img src="src/assets/Riverside2.jpg" alt="" class="slide" />
-        <h3>slide 1</h3>
-      </div>
-      <div>
-        <img src="src/assets/Biking.jpg" alt="" class="slide" />
-        <h3>slide 1</h3>
-      </div>
-      <div>
-        <img src="src/assets/Hiking2.jpg" alt="" class="slide" />
-        <h3>slide n</h3>
-      </div>
-    </agile>
+    <carousel />
     <div>
-      <h2>Woopower produkty</h2>
+      <h2>Woolpower produkty</h2>
     </div>
     <div class="nabidka">
       <div class="zakladni-vrstva"><h5>Ullfrotté</h5></div>
@@ -25,49 +12,23 @@
         <div class="detske-obleceni nahledy"><h5>Pro děti</h5></div>
       </div>
       <div class="sloupec">
-        <div class="pracovni-obleceni nahledy"><h5>Pracovní oblečení</h5></div>
+        <div class="pracovni-obleceni nahledy"><h5>Na práci</h5></div>
         <div class="doplnky nahledy"><h5>Doplňky</h5></div>
       </div>
     </div>
   </div>
 </template>
 <script>
-import { VueAgile } from "vue-agile";
+import Carousel from "./Carousel.vue";
 
 export default {
   name: "Woolpower",
   components: {
-    agile: VueAgile,
+    carousel: Carousel,
   },
 };
 </script>
 <style scoped>
-/* Carousel */
-agile nav-button {
-  background: transparent;
-  border: none;
-  color: #fff;
-  cursor: pointer;
-  font-size: 24px;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  transition-duration: 0.3s;
-  width: 80px;
-}
-
-agile nav-button:hover {
-  background-color: rgba(#000, 0.5);
-  opacity: 1;
-}
-
-.slide {
-  display: block;
-  height: 60vh;
-  object-fit: cover;
-  width: 100%;
-}
-/* nabídka produktů */
 h2 {
   text-align: center;
 }
@@ -80,7 +41,7 @@ h2 {
 .zakladni-vrstva {
   display: flex;
   background-image: url("../assets/HikingSummer2.jpg");
-  background-position: center center;
+  background-position: center top;
   background-size: cover;
   min-height: 300px;
   padding: 10px;
@@ -168,6 +129,7 @@ h5 {
     flex-wrap: nowrap;
   }
   .zakladni-vrstva {
+    background-position: center center;
     flex: 2 0 auto;
   }
   .sloupec {

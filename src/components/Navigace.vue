@@ -1,9 +1,9 @@
 <template>
   <div class="nav">
     <div class="logo">
-      <router-link to="/"
-        ><img src="../assets/Woolpower-logo.png" alt="logo"
-      /></router-link>
+      <router-link to="/">
+        <img src="../assets/Woolpower-logo.png" alt="logo" />
+      </router-link>
     </div>
     <div class="nabidka">
       <router-link to="/rada_Lite">Řada Lite</router-link>

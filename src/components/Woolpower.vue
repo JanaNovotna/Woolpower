@@ -5,15 +5,34 @@
       <h2>Woolpower produkty</h2>
     </div>
     <div class="nabidka">
-      <div class="zakladni-vrstva"><h5>Ullfrotté</h5></div>
-
-      <div class="sloupec">
-        <div class="rada-lite nahledy"><h5>Lite</h5></div>
-        <div class="detske-obleceni nahledy"><h5>Pro děti</h5></div>
+      <div class="zakladni-vrstva">
+        <router-link to="/rada_Ullfrotte">
+          <h5>Ullfrotté</h5>
+        </router-link>
       </div>
       <div class="sloupec">
-        <div class="pracovni-obleceni nahledy"><h5>Na práci</h5></div>
-        <div class="doplnky nahledy"><h5>Doplňky</h5></div>
+        <div class="rada-lite nahledy">
+          <router-link to="/rada_Lite">
+            <h5>Lite</h5>
+          </router-link>
+        </div>
+        <div class="detske-obleceni nahledy">
+          <router-link to="/detske_obleceni">
+            <h5>Pro děti</h5>
+          </router-link>
+        </div>
+      </div>
+      <div class="sloupec">
+        <div class="pracovni-obleceni nahledy">
+          <router-link to="/pracovni_obleceni">
+            <h5>Na práci</h5>
+          </router-link>
+        </div>
+        <div class="doplnky nahledy">
+          <router-link to="/doplnky">
+            <h5>Doplňky</h5>
+          </router-link>
+        </div>
       </div>
     </div>
   </div>
@@ -33,6 +52,12 @@ h2 {
   text-align: center;
 }
 
+h5 {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
 .nabidka {
   display: flex;
   flex-direction: column;
@@ -46,6 +71,11 @@ h2 {
   min-height: 300px;
   padding: 10px;
   margin: 5px;
+}
+
+.zakladni-vrstva h5 {
+  height: fit-content;
+  align-self: flex-end;
 }
 
 .sloupec {
@@ -89,15 +119,8 @@ h2 {
   margin: 5px;
 }
 
-h5 {
-  color: #fff;
-  font-size: 16px;
-  margin-bottom: 0;
-}
-
 .nahledy {
   display: flex;
-
   align-items: flex-end;
   padding-left: 10px;
 }

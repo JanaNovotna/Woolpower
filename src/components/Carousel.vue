@@ -1,7 +1,7 @@
 <template>
   <agile class="carousel">
     <div>
-      <img src="src/assets/Riverside2.jpg" alt="" class="slide" />
+      <img src="../assets/Riverside2.jpg" alt class="slide" />
       <div class="popisek">
         <h3>Proč zvolit Woolpower?</h3>
         <p>
@@ -11,7 +11,7 @@
       </div>
     </div>
     <div>
-      <img src="src/assets/Biking.jpg" alt="" class="slide" />
+      <img src="../assets/Biking.jpg" alt class="slide" />
       <div class="popisek">
         <h3>Proč si zvlotit Woolpower?</h3>
         <p>
@@ -22,7 +22,7 @@
       </div>
     </div>
     <div>
-      <img src="src/assets/Hiking2.jpg" alt="" class="slide" />
+      <img src="../assets/Hiking2.jpg" alt class="slide" />
       <div class="popisek">
         <h3>Proč si zvolit Woolpower?</h3>
         <p>

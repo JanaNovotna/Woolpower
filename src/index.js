@@ -12,6 +12,7 @@ import PracovniObleceni from './components/PracovniObleceni.vue';
 import Woolpowered from './components/Woolpowered.vue';
 import Info from './components/Info.vue';
 import Kontakt from './components/Kontakt.vue';
+import Vrstvy from './components/Vrstvy.vue'
 import App from './App.vue';
 import './index.html';
 
@@ -27,8 +28,11 @@ const router = new VueRouter({
     { path: '/detske_obleceni', name: "detskeObleceni", component: Detske },
     { path: '/doplnky', name: "doplnky", component: Doplnky },
     { path: '/pracovni_obleceni', name: "pracovniObleceni", component: PracovniObleceni },
-    { path: '/Woolpowered', name: "woolpowered", component: Woolpowered },
-    { path: '/o_Woolpoweru', name: "info", component: Info },
+    {
+      path: '/Woolpowered', name: "woolpowered", component: Woolpowered,
+      children: [{ path: '/vrstvy', name: "vrstvy", component: Vrstvy },
+      { path: '/o_Woolpoweru', name: "info", component: Info }]
+    },
     { path: '/kontakt', name: "kontakt", component: Kontakt },
   ],
 });

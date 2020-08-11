@@ -12,7 +12,6 @@
       <router-link to="/doplnky">Doplňky</router-link>
       <router-link to="/pracovni_obleceni">Pracovní oblečení</router-link>
       <router-link to="/Woolpowered">Woolpowered</router-link>
-      <router-link to="/o_Woolpoweru">O Woolpoweru</router-link>
       <router-link to="/kontakt">Kontakt</router-link>
     </div>
   </div>
@@ -58,6 +57,7 @@ export default {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: flex-end;
   }
 }
 @media (min-width: 1280px) {

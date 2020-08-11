@@ -7,6 +7,7 @@
     <div class="nabidka">
       <div class="zakladni-vrstva">
         <router-link to="/rada_Ullfrotte">
+          <!-- <img src="../assets/HikingSummer2.jpg" alt class="pozadi" /> -->
           <h5>Ullfrotté</h5>
         </router-link>
       </div>
@@ -56,6 +57,7 @@ h5 {
   color: #fff;
   font-size: 16px;
   margin-bottom: 0;
+  margin-top: 90px;
 }
 
 .nabidka {
@@ -69,13 +71,12 @@ h5 {
   background-position: center top;
   background-size: cover;
   min-height: 300px;
-  padding: 10px;
+  padding: 0 10px;
   margin: 5px;
 }
 
 .zakladni-vrstva h5 {
-  height: fit-content;
-  align-self: flex-end;
+  margin-top: 260px;
 }
 
 .sloupec {
@@ -122,12 +123,24 @@ h5 {
 .nahledy {
   display: flex;
   align-items: flex-end;
+  position: relative;
   padding-left: 10px;
 }
+
+.nabidka a {
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+}
+
+/* .pozadi img {
+  max-width: 100%;
+} */
 
 @media (min-width: 640px) {
   h5 {
     font-size: 18px;
+    margin-top: 170px;
   }
 
   .nabidka {
@@ -150,6 +163,10 @@ h5 {
   .nabidka {
     flex-direction: row;
     flex-wrap: nowrap;
+  }
+
+  .zakladni-vrstva h5 {
+    margin-top: 390px;
   }
   .zakladni-vrstva {
     background-position: center center;

@@ -18,6 +18,7 @@
 <script>
 import lite from "../lite.js";
 export default {
+  name: "radaLite",
   data() {
     return {
       produkty: lite.produkty,

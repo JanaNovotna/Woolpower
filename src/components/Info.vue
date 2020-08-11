@@ -1,9 +1,6 @@
 <template>
   <div>
-    <img
-      src="src/assets/ActiveFamilyWinter.jpg"
-      alt="Rodina na výletě na běžkách"
-    />
+    <img src="src/assets/banners/HikingSummer.jpg" alt="Na procházce v lese" />
     <div>
       <h1>O Woolpoweru</h1>
       <p>

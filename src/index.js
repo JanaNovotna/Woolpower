@@ -21,7 +21,7 @@ Vue.use(VueAgile)
 const router = new VueRouter({
   mode: 'history',
   routes: [
-    { path: '/', name: "woolpower", component: Woolpower },
+    { path: '/', component: Woolpower },
     { path: '/rada_Lite', name: "radaLite", component: RadaLite },
     { path: '/rada_Ullfrotte', name: "radaUllfrotte", component: RadaUllfrotte },
     { path: '/detske_obleceni', name: "detskeObleceni", component: Detske },

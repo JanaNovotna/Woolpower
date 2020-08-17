@@ -1,16 +1,33 @@
 <template>
   <div>
-    <img src="../assets/banners/Landscape3.jpg" alt="Rodina na výletě na běžkách" class="banner" />
+    <img
+      src="../assets/banners/Landscape3.jpg"
+      alt="Rodina na výletě na běžkách"
+      class="banner"
+    />
     <div>
       <h1>Woolpower Lite</h1>
-      <p>Řada produktů Lite je vyráběna z jiného materiálu než ostatní výrobky Woolpower. U této řady nenajdeme tipická očka Ulfrotté na vnitřní straně. Řida Lite je určena do teplešjích podmínek nebo na náročnější aktivity v přírodě po celý rok jako jsou kolo, běh či běžky.</p>
+      <p class="popis__rady">
+        Lite je tenčí hladký úplet bez typických oček na vnitřní straně.
+        Oblečení z této řady je určeno do teplešjích podmínek případně na
+        náročnější aktivity v přírodě po celý rok jako jsou kolo, běh či běžky.
+        Během teplých dní materiál chladí, ale zároveň dokáže u těla udržet
+        teplov případě, že se náhle ochladí.<br />
+        Složení:<br />
+        80% Merino vlny<br />
+        20% Polyamidu
+      </p>
     </div>
     <div class="produkty">
       <div v-for="produkt in produkty" :key="produkt.name" class="produkt">
-        <img :src="require(`../assets/produkty/lite/${produkt.image}`)" :alt="produkt.name" />
-        <h2 class="nazev__produktu">{{produkt.name}}</h2>
-        <p class="popis__produktu">{{produkt.description}}</p>
-        <p class="dostupne__barvy">Dostupné barvy: {{produkt.colors}}</p>
+        <img
+          :src="require(`../assets/produkty/lite/${produkt.image}`)"
+          :alt="produkt.name"
+        />
+        <h2 class="nazev__produktu">{{ produkt.name }}</h2>
+        <p class="popis__produktu">{{ produkt.description }}</p>
+        <p class="dostupne__barvy">Dostupné barvy: {{ produkt.colors }}</p>
+        <p class="pohlavi">{{ produkt.sex }}</p>
       </div>
     </div>
   </div>
@@ -37,6 +54,9 @@ p {
 .banner {
   width: 100%;
 }
+.popis__rady {
+  text-align: center;
+}
 .produkty {
   display: flex;
   flex-direction: column;
@@ -46,6 +66,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  position: relative;
   margin: 0.5rem;
   border-bottom: 1px dashed darkgray;
 }
@@ -64,6 +85,18 @@ p {
 .dostupne__barvy {
   text-align: center;
   font-size: 0.8rem;
+}
+.pohlavi {
+  clear: both;
+  border: 1px solid #566b6c;
+  border-radius: 5px;
+  padding: 2px 5px;
+  font-size: 10px;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #566b6c;
 }
 @media (min-width: 640px) {
   .produkty {

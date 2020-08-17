@@ -8,7 +8,7 @@
     "build": "webpack -d",
     "watch": "webpack -wd"
   },
-  "author": "",
+  "author": "Jana Novotná",
   "license": "ISC",
   "devDependencies": {
     "copy-webpack-plugin": "^6.0.1",

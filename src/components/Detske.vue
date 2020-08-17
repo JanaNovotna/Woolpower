@@ -1,18 +1,27 @@
 <template>
   <div>
-    <img src="../assets/banners/activeKid.jpg" alt="V zimě na saních" class="banner" />
+    <img
+      src="../assets/banners/activeKid.jpg"
+      alt="V zimě na saních"
+      class="banner"
+    />
     <div>
       <h1>Dětské oblečení a doplňky</h1>
-      <p
-        class="popis__rady"
-      >Dětské oblčení a doplňky z materiálu Ullfroté v dvou různých gramážích. Vyrobené tak, aby i děti zůstali v teple a pohpdlí po celou pobytu v přírode.Dostupné v pěti různých veliskotech (86-92, 98-104, 110-116, 122-128, 134-140).</p>
+      <p class="popis__rady">
+        Dětské oblčení a doplňky z materiálu Ullfroté v dvou různých gramážích.
+        Vyrobené tak, aby i děti zůstali v teple a pohodlí po celou pobytu v
+        přírode. Dostupné ve velikostech pro nejmenší i starší děti.
+      </p>
     </div>
     <div class="produkty">
       <div v-for="produkt in produkty" :key="produkt.name" class="produkt">
-        <img :src="require(`../assets/produkty/deti/${produkt.image}`)" :alt="produkt.name" />
-        <h2 class="nazev__produktu">{{produkt.name}}</h2>
-        <p class="popis__produktu">{{produkt.description}}</p>
-        <p class="dostupne__barvy">Dostupné barvy: {{produkt.colors}}</p>
+        <img
+          :src="require(`../assets/produkty/deti/${produkt.image}`)"
+          :alt="produkt.name"
+        />
+        <h2 class="nazev__produktu">{{ produkt.name }}</h2>
+        <p class="popis__produktu">{{ produkt.description }}</p>
+        <p class="dostupne__barvy">Dostupné barvy: {{ produkt.colors }}</p>
       </div>
     </div>
   </div>

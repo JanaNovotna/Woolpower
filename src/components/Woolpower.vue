@@ -1,6 +1,24 @@
 <template>
   <div>
-    <carousel />
+    <div class="uvod">
+      <img
+        src="../assets/Hiking2.jpg"
+        alt="Na treku ve Švédsku."
+        class="uvodni__foto"
+      />
+      <div class="popisek__nahled">
+        <h3>Proč Woolpower?</h3>
+        <p>
+          Produkty Woolpower se stále vyrábí ve městě Östersund ve Švédsku. Od
+          předení vlákna, přes tkaní až po šití konečného výrobku a jeho
+          následnou expedici. Oblčení i doplňky jsou vyráběny tak, aby byly
+          pohodlné při každodenním nošení, ale aby byly zároveň odolné a zvládli
+          jakékoliv sportovní aktivity za jekéhokoliv počasí. Společenost
+          Woolpower se navíc stará o prostředí, ve kterém působí. Ať už se jedná
+          o lidi, zvířata či přírodu.
+        </p>
+      </div>
+    </div>
     <div>
       <h2>Woolpower produkty</h2>
     </div>
@@ -58,6 +76,17 @@ h5 {
   font-size: 16px;
   margin-bottom: 0;
   margin-top: 90px;
+}
+.uvodni__foto {
+  width: 100%;
+  margin: 0;
+}
+.popisek__nahled {
+  padding: 0.5rem;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-size: 0.9rem;
 }
 
 .nabidka {
@@ -142,6 +171,18 @@ h5 {
     font-size: 18px;
     margin-top: 170px;
   }
+  .uvod {
+    position: relative;
+  }
+  .popisek__nahled {
+    position: absolute;
+    bottom: 0.5rem;
+    padding: 0.25rem 1rem;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 0.9rem;
+  }
 
   .nabidka {
     flex-direction: row;
@@ -158,6 +199,12 @@ h5 {
 @media (min-width: 1024px) {
   h5 {
     font-size: 22px;
+  }
+
+  .popisek__nahled {
+    padding: 0.5rem;
+    margin: 2rem;
+    width: 35vw;
   }
 
   .nabidka {

@@ -1,7 +1,7 @@
 export default {
   produkty: [
     {
-      name: "Shoe Liner",
+      name: "Ponožky Shoe Liner",
       slug: "shoeLiner",
       image: "shoeLiner.jpg",
       id: 8401,
@@ -9,7 +9,7 @@ export default {
       colors: "black, grey",
     },
     {
-      name: "Liner Classic",
+      name: "Ponožky Liner Classic",
       slug: "linerClassic",
       image: "linerClassic.jpg",
       id: 8411,
@@ -17,7 +17,7 @@ export default {
       colors: "black, grey",
     },
     {
-      name: "Liner Knee-high",
+      name: "Ponožky Liner Knee-high",
       slug: "linerKneeHigh",
       image: "linerKneeHigh.jpg",
       id: 8481,
@@ -129,7 +129,7 @@ export default {
       colors: "black",
     },
     {
-      name: "Beanie Lite",
+      name: "Čepice Beanie Lite",
       slug: "beanieLite",
       image: "beanieLite.jpg",
       id: 9621,
@@ -137,7 +137,7 @@ export default {
       colors: "black, nordic blue, pine green",
     },
     {
-      name: "Cap 400",
+      name: "Čepice Cap 400",
       slug: "cap400",
       image: "cap400.jpg",
       id: 9624,
@@ -161,7 +161,7 @@ export default {
       colors: "black",
     },
     {
-      name: "Helmet Cap 400",
+      name: "Čepice Helmet Cap 400",
       slug: "helmetCap400",
       image: "helmetCap400.jpg",
       id: 9644,
@@ -178,16 +178,16 @@ export default {
     },
     {
       name: "Balaclava 200",
-      slug: "balaclva200",
-      image: "balaclva200.jpg",
+      slug: "balaclava200",
+      image: "balaclava200.jpg",
       id: 9652,
       description: "Kukla s jediným otvorem, který lze nastavit tak, že zakrývá vše kromě očí. Spodní lem lze stáhnout pod nos nebo až pod bradu.",
       colors: "black, pine green",
     },
     {
       name: "Balaclava 400",
-      slug: "balaclva400",
-      image: "balaclva400.jpg",
+      slug: "balaclava400",
+      image: "balaclava400.jpg",
       id: 9654,
       description: "Teplejší kukla s jediným otvorem, který lze nastavit tak, že zakrývá vše kromě očí. Spodní lem lze stáhnout pod nos nebo až pod bradu. Prodloužený model.",
       colors: "black, pine green",

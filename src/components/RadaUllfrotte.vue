@@ -3,7 +3,9 @@
     <img src="../assets/banners/Landscape4.jpg" alt="Rodina na výletě na běžkách" class="banner" />
     <div>
       <h1>Woolpower Ullfrotté</h1>
-      <p>Klasický úplet od Woolpoweru - z vnější strany hladký, z vnitřní strany frotté očka pro vyšší míru izolace. Kruhový úplet s plochými švy.</p>
+      <p
+        class="popis__rady"
+      >Klasický úplet od Woolpoweru - z vnější strany hladký, z vnitřní strany frotté očka pro vyšší míru izolace. Kruhový úplet s plochými švy.</p>
     </div>
     <div class="produkty">
       <div v-for="produkt in produkty" :key="produkt.name" class="produkt">
@@ -36,6 +38,9 @@ p {
 }
 .banner {
   width: 100%;
+}
+.popis__rady {
+  text-align: center;
 }
 .produkty {
   display: flex;

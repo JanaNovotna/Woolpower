@@ -1,0 +1,60 @@
+export default {
+  produkty: [
+    {
+      name: "Full Zip Jacket 400",
+      slug: "fullZipJckt400",
+      image: "fullZipJckt400.jpg",
+      id: 3234,
+      description: "Celorozepínací mikina pro děti s extra zesíleným límcem a s prodlouženým zadním dílem. Manžety jsou vpletené do tkaniny pro zvýšení elasticity a životnosti materiálu.",
+      colors: "dolphine blue, turtle green",
+    },
+    {
+      name: "Vest 400",
+      slug: "vest400",
+      image: "vest400.jpg",
+      id: 3244,
+      description: "Dětská celorozepínací vesta má zesílený límec a rovný spodní lem.",
+      colors: "dolphine blue, turtle green",
+    },
+    {
+      name: "Crewneck 200",
+      slug: "crewneck200",
+      image: "crewneck200.jpg",
+      id: 3112,
+      description: "Dětský svetr s kulatým výstřihem, vyrobený z kruhového úpletu bez podélných švů. Zadní strana je delší pro zvýšení komfortu nošení. Manžety jsou vpletené do tkaniny pro zvýšení elasticity a životnosti materiálu.",
+      colors: "dolphine blue, turtle green",
+    },
+    {
+      name: "Long Johns 200",
+      slug: "longJohns200",
+      image: "longJohns200.jpg",
+      id: 3342,
+      description: "Dlouhé spodky s kruhovým úpletem bez podélných švů. Klínovitá vsázka zvyšuje komfort nošení. Manžety jsou vpletené do tkaniny.",
+      colors: "dolphine blue, turtle green",
+    },
+    {
+      name: "Socks Logo 400",
+      slug: "socksLogo400",
+      image: "socksLogo400.jpg",
+      id: 3424,
+      description: "Ponožky s froté úpletem v oblasti chodidla a s žebrovaným komínkem s pleteným logem.",
+      colors: "dolphine blue, turtle green",
+    },
+    {
+      name: "Mock Turtleneck 200",
+      slug: "mockTurtleneck200",
+      image: "mockTurtleneck200.jpg",
+      id: 3632,
+      description: "Dětský nákrčník, ideální doplněk ke svetru bez stojáčku. Příjemně zahřeje v oblasti krku.",
+      colors: "dolphine blue, turtle green",
+    },
+    {
+      name: "Balaclava 200",
+      slug: "balaclava200",
+      image: "balaclava200.jpg",
+      id: 3652,
+      description: "Dětská kukla s jediným otvorem, který lze nastavit tak, že zakrývá vše kromě očí. Spodní lem lze stáhnout pod nos nebo až pod bradu.",
+      colors: "dolphine blue, turtle green",
+    },
+  ]
+}

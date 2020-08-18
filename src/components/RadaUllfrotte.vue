@@ -37,7 +37,7 @@
 <script>
 import ullfrotte from "../ullfrotte.js";
 export default {
-  name: "radaUllfrotte",
+  name: "rada_Ullfrotte",
   data() {
     return {
       produkty: ullfrotte.produkty,

@@ -11,7 +11,7 @@
         <p>
           Produkty Woolpower se stále vyrábí ve městě Östersund ve Švédsku. Od
           předení vlákna, přes tkaní až po šití konečného výrobku a jeho
-          následnou expedici. Oblčení i doplňky jsou vyráběny tak, aby byly
+          následnou expedici. Oblečení i doplňky jsou vyráběny tak, aby byly
           pohodlné při každodenním nošení, ale aby byly zároveň odolné a zvládli
           jakékoliv sportovní aktivity za jekéhokoliv počasí. Společenost
           Woolpower se navíc stará o prostředí, ve kterém působí. Ať už se jedná

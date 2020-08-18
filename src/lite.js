@@ -68,7 +68,7 @@ export default {
       slug: "briefsXlongWsLITE",
       image: "BriefsXLongWsLITE.jpg",
       id: 4311,
-      description: "Boxerky určené k nošení jako spodní prádlo, které poskytnou kvalitní izolaci a odvod vlhkosti od těla. Prodloužený design zajistí extra tepelný komfort pro vaše velké svalové skupiny. Pas se všitým logem je vyroben z hebkého a elastického materiálu.",
+      description: "Dámské boxerky určené k nošení jako spodní prádlo, které poskytnou kvalitní izolaci a odvod vlhkosti od těla. Prodloužený střih zajistí větší tepelný komfort na stehnech. Pas se všitým logem je vyroben z hebkého a elastického materiálu.",
       colors: "black",
       sex: "Dámské",
     },

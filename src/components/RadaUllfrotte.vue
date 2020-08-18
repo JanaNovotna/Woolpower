@@ -8,10 +8,12 @@
     <div>
       <h1>Woolpower Ullfrotté</h1>
       <p class="popis__rady">
-        Klasický úplet od Woolpower - z vnější strany hladký, z vnitřní strany
-        frotté očka pro vyšší míru izolace. Základem všech výrobků je kruhový
-        úplet a všechno oblečení má ploché švy.<br />
-        Složení Ullfrotté:<br />
+        Klasický úplet od firmy Woolpower - z vnější strany hladký, z vnitřní
+        strany froté očka pro vyšší míru izolace. Základem všech výrobků je
+        kruhový úplet a všechno oblečení má ploché švy.
+      </p>
+      <p class="popis__rady">
+        <b>Složení materiálu Ullfrotté:</b><br />
         60% Merino vlny<br />
         25% Polyesteru<br />
         13% Polyamidu<br />

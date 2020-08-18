@@ -9,11 +9,13 @@
       <h1>Woolpower Lite</h1>
       <p class="popis__rady">
         Lite je tenčí hladký úplet bez typických oček na vnitřní straně.
-        Oblečení z této řady je určeno do teplešjích podmínek případně na
+        Oblečení z této řady je určeno do teplejších podmínek případně na
         náročnější aktivity v přírodě po celý rok jako jsou kolo, běh či běžky.
         Během teplých dní materiál chladí, ale zároveň dokáže u těla udržet
-        teplov případě, že se náhle ochladí.<br />
-        Složení:<br />
+        teplo v případě, že se náhle ochladí.
+      </p>
+      <p class="popis__rady">
+        <b>Složení materiálu Lite:</b><br />
         80% Merino vlny<br />
         20% Polyamidu
       </p>

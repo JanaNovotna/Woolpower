@@ -8,9 +8,10 @@
     <div>
       <h1>Dětské oblečení a doplňky</h1>
       <p class="popis__rady">
-        Dětské oblčení a doplňky z materiálu Ullfroté v dvou různých gramážích.
-        Vyrobené tak, aby i děti zůstali v teple a pohodlí po celou pobytu v
-        přírode. Dostupné ve velikostech pro nejmenší i starší děti.
+        Dětské oblečení a doplňky z materiálu Ullfroté ve dvou různých
+        gramážích. Vyrobené tak, aby i děti zůstali v teple a pohodlí po celou
+        dobu pobytu v přírodě. Dostupné ve velikostech pro nejmenší i starší
+        děti.
       </p>
     </div>
     <div class="produkty">

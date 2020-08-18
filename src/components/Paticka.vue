@@ -3,12 +3,14 @@
     <img src="../assets/logo_footer.png" alt="Woolpower logo" class="logo" />
     <p class="info">
       Oficiální distributor pro Českou republiku a Slovensko:
-      <br />Hanibal Sport.cz
+      <br />Hanibal Sport s.r.o.
       <br />
       <a href="https://www.hanibal.cz">Hanibal.cz</a>
     </p>
     <p class="kontakt">
-      <a href="mailto:obchod@woolpower.cz?subject=Zpráve z webu Woolpower.cz">obchod@woolpower.cz</a>
+      <a href="mailto:obchod@woolpower.cz?subject=Zpráve z webu Woolpower.cz"
+        >obchod@woolpower.cz</a
+      >
     </p>
   </div>
 </template>

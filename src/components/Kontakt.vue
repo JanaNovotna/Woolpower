@@ -14,7 +14,7 @@
       </p>
 
       <p class="email">
-        Můžete nám napsat na emial:
+        Můžete nám napsat na email:
         <a href="mailto:obchod@woolpower.cz?subject=Zpráve z webu Woolpower.cz"
           >obchod@woolpower.cz</a
         >

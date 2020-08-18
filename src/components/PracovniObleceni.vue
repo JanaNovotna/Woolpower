@@ -1,18 +1,28 @@
 <template>
   <div>
-    <img src="../assets/banners/WoolpowerPrace.jpg" alt="Dřevorubec v práci" class="banner" />
+    <img
+      src="../assets/banners/WoolpowerPrace.jpg"
+      alt="Dřevorubec v práci"
+      class="banner"
+    />
     <div>
       <h1>Pracovní oblečení a doplňky</h1>
-      <p
-        class="popis__rady"
-      >Skupina výrobků Protection je vyráběná s ohledem na její cílové, tedy pracovní použití. Oděvy splňují standardy EU pro pracovní vybavení. Oproti klasickému oblčení od Woolpoweru jsou navíc odolné vůči žáru a statické elektřině.</p>
+      <p class="popis__rady">
+        Skupina výrobků Protection je vyráběná s ohledem na její cílové, tedy
+        pracovní použití. Oděvy splňují standardy EU pro pracovní vybavení.
+        Oproti klasickému oblečení od Woolpoweru jsou navíc odolné vůči žáru a
+        statické elektřině.
+      </p>
     </div>
     <div class="produkty">
       <div v-for="produkt in produkty" :key="produkt.name" class="produkt">
-        <img :src="require(`../assets/produkty/pracovni/${produkt.image}`)" :alt="produkt.name" />
-        <h2 class="nazev__produktu">{{produkt.name}}</h2>
-        <p class="popis__produktu">{{produkt.description}}</p>
-        <p class="dostupne__barvy">Dostupné barvy: {{produkt.colors}}</p>
+        <img
+          :src="require(`../assets/produkty/pracovni/${produkt.image}`)"
+          :alt="produkt.name"
+        />
+        <h2 class="nazev__produktu">{{ produkt.name }}</h2>
+        <p class="popis__produktu">{{ produkt.description }}</p>
+        <p class="dostupne__barvy">Dostupné barvy: {{ produkt.colors }}</p>
       </div>
     </div>
   </div>

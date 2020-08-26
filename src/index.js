@@ -2,7 +2,6 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import VueAgile from 'vue-agile';
 
-
 import Woolpower from './components/Woolpower.vue';
 import RadaLite from './components/RadaLite.vue';
 import RadaUllfrotte from './components/RadaUllfrotte.vue';

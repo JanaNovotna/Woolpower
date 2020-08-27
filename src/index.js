@@ -19,7 +19,7 @@ Vue.use(VueRouter);
 Vue.use(VueAgile)
 
 const router = new VueRouter({
-  mode: 'history',
+  // mode: 'history',
   routes: [
     { path: '/', component: Woolpower },
     { path: '/rada_Lite', name: "radaLite", component: RadaLite },

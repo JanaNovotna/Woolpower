@@ -71,6 +71,16 @@ h2 {
   text-align: center;
 }
 
+h2::before {
+  content: "- - - ";
+  font-weight: 200;
+}
+
+h2::after {
+  content: " - - -";
+  font-weight: 200;
+}
+
 h5 {
   color: #fff;
   font-size: 16px;
@@ -167,6 +177,14 @@ h5 {
 } */
 
 @media (min-width: 640px) {
+  h2::before {
+    content: "- - - - - - - ";
+  }
+
+  h2::after {
+    content: " - - - - - - -";
+  }
+
   h5 {
     font-size: 18px;
     margin-top: 170px;
@@ -199,6 +217,14 @@ h5 {
 @media (min-width: 1024px) {
   h2 {
     font-size: 40px;
+  }
+
+  h2::before {
+    content: "- - - - - - - - - - - - ";
+  }
+
+  h2::after {
+    content: " - - - - - - - - - - -";
   }
 
   h5 {

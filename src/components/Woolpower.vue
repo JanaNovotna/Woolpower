@@ -197,6 +197,10 @@ h5 {
 }
 
 @media (min-width: 1024px) {
+  h2 {
+    font-size: 40px;
+  }
+
   h5 {
     font-size: 22px;
   }

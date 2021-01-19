@@ -12,6 +12,7 @@
         >obchod@woolpower.cz</a
       >
     </p>
+    <p class="info">Pro Hanibal sport s.r.o. vyrobila Jana Novotná © 2021</p>
   </div>
 </template>
 <style scoped>

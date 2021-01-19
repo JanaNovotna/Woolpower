@@ -1,6 +1,37 @@
 <template>
   <div class="formular">
-    <h2>Kontakt</h2>
+    <h1>Prodejci</h1>
+    <div class="prodejci">
+      <div class="prodejce">
+        <h2>Parys</h2>
+        <p>
+          Průmyslová 1292<br />50601 Jičín <br />
+          <b>telefon:</b> 774 411 193 <br />
+          <b>e-mail:</b><a href="mailto:info@parys.cz">info@parys.cz</a>
+        </p>
+      </div>
+      <div class="prodejce">
+        <h2>Fish & Hunt</h2>
+        <p>
+          Kolínská 94<br />280 02 Nová Ves I <br />
+          <b>telefon:</b> 774 377 133 <br />
+          <b>e-mail:</b><a href="mailto:shop@fishhunt.cz">shop@fishhunt.cz</a>
+        </p>
+      </div>
+      <div class="prodejce">
+        <h2>Bushcraft</h2>
+        <p>
+          Jesenická 22<br />787 01 Šumperk<br />
+          <b>telefon:</b> 605 011 644
+        </p>
+        <p>
+          Na Václavce 28;<br />150 00 Praha 5<br />
+          <b>telefon:</b> 737 730 056 <b>e-mail:</b
+          ><a href="mailto:info@bushcraftshop.cz">info@bushcraftshop.cz</a>
+        </p>
+      </div>
+    </div>
+    <h1>Kontakt</h1>
     <img
       src="../assets/CampfireSummer.jpg"
       alt="Posezení u ohně"
@@ -37,6 +68,22 @@ export default {
 h2 {
   text-align: center;
 }
+
+.prodejci {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.prodejce {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0.5rem;
+  border: 1px solid rgb(165, 164, 164);
+  border-radius: 5px;
+}
+
 .formular {
   position: relative;
 }
@@ -58,17 +105,27 @@ h2 {
 .email {
   font-size: 1.2rem;
 }
-a {
+.formular a {
   text-decoration: none;
   color: #fff;
 }
 a:hover {
   text-decoration: underline;
 }
-a:visited {
+.formular a:visited {
   color: rgb(165, 164, 164);
 }
 @media (min-width: 640px) {
+  .prodejci {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+  }
+  .prodejce {
+    width: 300px;
+    margin: 1rem;
+  }
 }
 @media (min-width: 1024px) {
   .pozadi {

@@ -8,10 +8,30 @@
     <div>
       <h1>Woolpower Ullfrotté</h1>
       <p class="popis__rady">
-        Klasický úplet od firmy Woolpower - z vnější strany hladký, z vnitřní
-        strany froté očka pro vyšší míru izolace. Základem všech výrobků je
-        kruhový úplet a všechno oblečení má ploché švy.
+        Na začátku sedmdesátých let 20. století Woolpower začal vyvíjet oblečení
+        do extrémních podmínek pro švédskou armádu. Na vývoji nvého materiáu se
+        podíleli lékaři a externí vědci. Cílem bylo vytvořit takový matriál,
+        který by byl mechanicky odolný a zároveň pohodlný při nošení . Zkrátka
+        tak, aby se člověk moc nepotil, ale aby mu zároveň nebyla zima, když se
+        zastaví na odpočinek. Vznikl tak materiál Ullfrotté Original složený z
+        jemné Merino vlny, polyesteru, polyamidu, elastanu a, jak říkají ve
+        Woolpoweru, vzduchu. Ano, čtete správně, vzduchu. Vzduch je totiž to, co
+        skutečně izolouje. Ullfortté, jak už název napovídá, je z vnitřní strany
+        froté úplet a z vnější strany hladký úplet. Právě ta malá očka na
+        vnitřní straně drží ohřátý vzduch u těla. A tím, že dochází k
+        minimálnímu kontaktu látky s tělem, oblčení vyrobené z Ullfrotté
+        materiálu tolik nestudí i když se člověk zpotí.
       </p>
+      <div class="video">
+        <div class="responsive_video">
+          <iframe
+            src="https://www.youtube.com/embed/jqYB-5T4ujM"
+            allowfullscreen
+          >
+          </iframe>
+        </div>
+      </div>
+
       <p class="popis__rady">
         <b>Složení materiálu Ullfrotté:</b><br />
         60% Merino vlny<br />
@@ -20,6 +40,7 @@
         2% Elastanu
       </p>
     </div>
+    <h2>Produkty:</h2>
     <div class="produkty">
       <div v-for="produkt in produkty" :key="produkt.name" class="produkt">
         <img
@@ -47,7 +68,8 @@ export default {
 };
 </script>
 <style scoped>
-h1 {
+h1,
+h2 {
   text-align: center;
 }
 p {
@@ -56,9 +78,33 @@ p {
 .banner {
   width: 100%;
 }
+
 .popis__rady {
-  text-align: center;
+  text-align: left;
+  padding: 0 60px;
 }
+
+.video {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.responsive_video {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.responsive_video iframe {
+  border: 0;
+  padding: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
 .produkty {
   display: flex;
   flex-direction: column;
@@ -103,6 +149,9 @@ p {
 }
 
 @media (min-width: 640px) {
+  .video {
+    width: 60%;
+  }
   .produkty {
     flex-direction: row;
     flex-wrap: wrap;
@@ -125,8 +174,8 @@ p {
   }
 }
 @media (min-width: 1280px) {
-  /* .produkt {
-    width: 400px;
-  } */
+  .video {
+    width: 40%;
+  }
 }
 </style>

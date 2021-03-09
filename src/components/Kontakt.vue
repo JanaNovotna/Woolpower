@@ -3,10 +3,10 @@
     <h1>Prodejci</h1>
     <div class="prodejci">
       <div class="prodejce">
+        <a href="https://www.parys.cz" target="_blank"
+          ><img src="../assets/loga/parys.jpg" alt="Logo prodejce Parys"
+        /></a>
         <h2>Parys</h2>
-        <p class="odkaz">
-          <a href="https://www.parys.cz" target="blank">www.parys.cz</a>
-        </p>
         <h3>Prodejna:</h3>
         <p>
           Průmyslová 1292, Jičín <br />
@@ -15,12 +15,12 @@
         </p>
       </div>
       <div class="prodejce">
+        <a href="https://www.fishhunt.cz/index.php" target="_blank"
+          ><img
+            src="../assets/loga/fish-hunt.jpg"
+            alt="Logo prodejce Fish and Hunt"
+        /></a>
         <h2>Fish & Hunt</h2>
-        <p class="odkaz">
-          <a href="https://www.fishhunt.cz/index.php" target="blank"
-            >www.fishhunt.cz</a
-          >
-        </p>
         <h3>Prodejna:</h3>
         <p>
           Kolínská 94, Nová Ves I <br />
@@ -29,12 +29,12 @@
         </p>
       </div>
       <div class="prodejce">
+        <a href="https://www.bushcraftshop.cz" target="_blank"
+          ><img
+            src="../assets/loga/bushcraftshop.jpg"
+            alt="Logo prodejce Bushcraft"
+        /></a>
         <h2>JüBo Bushcraft</h2>
-        <p class="odkaz">
-          <a href="https://www.bushcraftshop.cz" target="blank"
-            >www.bushcraftshop.cz</a
-          >
-        </p>
         <h3>Prodejny:</h3>
         <p>
           Jesenická 22, Šumperk<br />
@@ -47,10 +47,10 @@
         </p>
       </div>
       <div class="prodejce">
+        <a href="https://www.hanibal.cz" target="blank"
+          ><img src="../assets/loga/hanibal.jpg" alt="Logo prodejce Hanibal"
+        /></a>
         <h2>Hanibal</h2>
-        <p class="odkaz">
-          <a href="https://www.hanibal.cz" target="blank">www.hanibal.cz</a>
-        </p>
         <h3>Prodejny:</h3>
         <p>
           Korunní 16, Praha 2 <br />
@@ -61,10 +61,12 @@
         </p>
       </div>
       <div class="prodejce">
+        <a href="https://www.ceskyraj.com" target="blank"
+          ><img
+            src="../assets/loga/cesky-raj.jpg"
+            alt="Logo prodejce Český ráj outdoor"
+        /></a>
         <h2>Český ráj outdoor</h2>
-        <p class="odkaz">
-          <a href="https://www.ceskyraj.com" target="blank">www.ceskyraj.com</a>
-        </p>
         <h3>Prodejna:</h3>
         <p>
           Staroměstské náměstí 20/21<br />
@@ -125,12 +127,6 @@ hr {
   border-top: 1px dashed darkgray;
 }
 
-.odkaz {
-  font-size: 0.8rem;
-  text-align: center;
-  margin: 0;
-}
-
 .prodejci {
   display: flex;
   flex-direction: column;
@@ -148,6 +144,15 @@ hr {
   box-shadow: 2px 2px 3px rgb(165, 164, 164);
 }
 
+.prodejce h2 {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.prodejce img {
+  width: 100%;
+  margin: 0;
+}
 .kontakt {
   position: relative;
 }

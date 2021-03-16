@@ -2,7 +2,7 @@
   <div>
     <div class="uvod">
       <img
-        src="../assets/Hiking2.jpg"
+        src="../assets/Nove-barvy-trek.jpg"
         alt="Na treku ve Švédsku."
         class="uvodni__foto"
       />

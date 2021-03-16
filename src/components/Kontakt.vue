@@ -6,7 +6,7 @@
         <a href="https://www.parys.cz" target="_blank"
           ><img src="../assets/loga/parys.jpg" alt="Logo prodejce Parys"
         /></a>
-        <h2>Parys</h2>
+        <h2>Párysův rybářský ráj</h2>
         <h3>Prodejna:</h3>
         <p>
           Průmyslová 1292, Jičín <br />
@@ -34,7 +34,7 @@
             src="../assets/loga/bushcraftshop.jpg"
             alt="Logo prodejce Bushcraft"
         /></a>
-        <h2>JüBo Bushcraft</h2>
+        <h2>BUSHCRAFTshop.cz</h2>
         <h3>Prodejny:</h3>
         <p>
           Jesenická 22, Šumperk<br />

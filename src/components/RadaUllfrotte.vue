@@ -8,19 +8,28 @@
     <div>
       <h1>Woolpower Ullfrotté</h1>
       <p class="popis__rady">
-        Na začátku sedmdesátých let 20. století Woolpower začal vyvíjet oblečení
-        do extrémních podmínek pro švédskou armádu. Na vývoji nvého materiáu se
-        podíleli lékaři a externí vědci. Cílem bylo vytvořit takový matriál,
-        který by byl mechanicky odolný a zároveň pohodlný při nošení . Zkrátka
-        tak, aby se člověk moc nepotil, ale aby mu zároveň nebyla zima, když se
-        zastaví na odpočinek. Vznikl tak materiál Ullfrotté Original složený z
-        jemné Merino vlny, polyesteru, polyamidu, elastanu a, jak říkají ve
-        Woolpoweru, vzduchu. Ano, čtete správně, vzduchu. Vzduch je totiž to, co
-        skutečně izolouje. Ullfortté, jak už název napovídá, je z vnitřní strany
-        froté úplet a z vnější strany hladký úplet. Právě ta malá očka na
-        vnitřní straně drží ohřátý vzduch u těla. A tím, že dochází k
-        minimálnímu kontaktu látky s tělem, oblčení vyrobené z Ullfrotté
-        materiálu tolik nestudí i když se člověk zpotí.
+        Řada oblečení Ullfrotté byla první řadou produktů, které Woolpower
+        vyráběl. Na začátku sedmdesátých let 20. století Woolpower začal vyvíjet
+        oblečení do extrémních podmínek pro švédskou armádu. Na vývoji nového
+        materiáu se, kromě lidí z Woolpoweru, podíleli i lékaři a externí vědci.
+        Cílem bylo vytvořit takový matriál, který by byl mechanicky odolný a
+        zároveň pohodlný při nošení za extrémních podmínek při různých
+        aktivitách. Zkrátka tak, aby se člověk moc nepotil, ale aby mu zároveň
+        nebyla zima, když se zastaví třeba na odpočinek.
+      </p>
+      <p class="popis__rady">
+        Vznikl tak materiál Ullfrotté Original složený z jemné Merino vlny,
+        polyesteru, polyamidu, elastanu a, jak říkají ve Woolpoweru, vzduchu.
+        Ano, čtete správně, vzduchu. Vzduch je totiž to, co skutečně izolouje.
+        Ullfortté, jak už název napovídá, je z vnitřní strany froté úplet a z
+        vnější strany hladký úplet. Právě ta malá očka na vnitřní straně drží
+        ohřátý vzduch u těla. A tím, že dochází k minimálnímu kontaktu látky s
+        tělem, oblčení vyrobené z Ullfrotté materiálu tolik nestudí i když se
+        člověk zpotí.
+      </p>
+      <p class="text">
+        <b>Video o Ulfrotté original z produkce Woolpower:</b><br />
+        <i>(video je pouze v angličtině)</i>
       </p>
       <div class="video">
         <div class="responsive_video">
@@ -32,7 +41,7 @@
         </div>
       </div>
 
-      <p class="popis__rady">
+      <p class="text">
         <b>Složení materiálu Ullfrotté:</b><br />
         60% Merino vlny<br />
         25% Polyesteru<br />
@@ -82,6 +91,10 @@ p {
 .popis__rady {
   text-align: left;
   padding: 0 60px;
+}
+
+.text {
+  text-align: center;
 }
 
 .video {

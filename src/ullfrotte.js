@@ -53,10 +53,10 @@ export default {
     {
       name: "Full Zip Jacket 400",
       slug: "fullZipJckt400",
-      image: "fullZipJckt400.jpg",
+      image: "fullZipJckt400-autumn_red.jpg",
       id: 7234,
       description: "Celorozepínací mikina s vysokým, dvojitě zesíleným límcem a s prodlouženým zadním dílem. Manžety mají dírky na palce. Na límci je vpletené logo Woolpower.",
-      colors: "black, dark navy, grey, pine green",
+      colors: "black, dark navy, grey, pine green, autumn red, rust red, forest green",
       insulation: 400,
       sex: "Unisex",
     },
@@ -73,7 +73,7 @@ export default {
     {
       name: "Vest 400",
       slug: "vest400",
-      image: "vest400.jpg",
+      image: "vest400-navy.jpg",
       id: 7244,
       description: "Celorozepínací vesta s vysokým, dvojitě zesíleným límcem s vpleteným logem Woolpower. Vyrobena z kruhového úpletu s rovným spodním lemem. ",
       colors: "black, dark navy, grey, pine green",

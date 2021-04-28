@@ -70,7 +70,7 @@
         <h3>Prodejna:</h3>
         <p>
           Hradišťská 1031<br />
-          Kosmonosy<br />
+          Mladá Boleslav<br />
           <b>telefon:</b> 326 211 050 <br />
           <b>e-mail: </b
           ><a href="mailto:ceskyraj@ceskyraj.com">ceskyraj@ceskyraj.com</a>

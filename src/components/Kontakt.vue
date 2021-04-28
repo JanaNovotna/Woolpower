@@ -69,11 +69,24 @@
         <h2>Český ráj outdoor</h2>
         <h3>Prodejna:</h3>
         <p>
-          Staroměstské náměstí 20/21<br />
-          Mladá Boleslav<br />
+          Hradišťská 1031<br />
+          Kosmonosy<br />
           <b>telefon:</b> 326 211 050 <br />
           <b>e-mail: </b
           ><a href="mailto:ceskyraj@ceskyraj.com">ceskyraj@ceskyraj.com</a>
+        </p>
+      </div>
+      <div class="prodejce">
+        <a href="https://www.quillcz.cz" target="blank"
+          ><img src="../assets/loga/quill.png" alt="Logo prodejce QUiLL"
+        /></a>
+        <h2>QUiLL outdoor</h2>
+        <h3>Prodejna:</h3>
+        <p>
+          Jablůnka 207<br />
+          Jablůnka<br />
+          <b>telefon:</b> 723 767 434 <br />
+          <b>e-mail: </b><a href="mailto:info@quillcz.cz">info@quillcz.cz</a>
         </p>
       </div>
     </div>
